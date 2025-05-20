@@ -66,10 +66,7 @@ const Blogpage = () => {
           </form>
         </div>
       </div>
-      <div
-        className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-9 mx-auto py-8 px-10 sm:px-6 lg:px-3"
-        id="daftar-blog"
-      >
+      <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mx-auto px-10 sm:px-6 lg:px-3">
         {blog.map((item, index) => {
           return (
             <CardBlog key={index} data={item} onClickCard={() => handleGetDetail(item)} />

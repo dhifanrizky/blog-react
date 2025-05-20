@@ -6,7 +6,7 @@ import Detail from './pages/Detail';
 const App = () => {
   return (
       <Routes>
-        <Route path="/" element={<Blogpage />} />
+        <Route path="/blog" element={<Blogpage />} />
         <Route path="/detail" element={<Detail />} />
       </Routes>
   );
